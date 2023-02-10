@@ -1,0 +1,12 @@
+@media screen and (min-width: 1400px) {
+    .dcc-bar-graph svg .ytick text,
+    .dcc-bar-graph svg .xtick text {
+        font-size: 105% !important;
+    }
+
+    .dcc-bar-graph svg .g-ytitle text,
+    .dcc-bar-graph svg .g-xtitle text {
+        font-size: 115% !important;
+        font-weight: 900 !important;
+    }
+}
