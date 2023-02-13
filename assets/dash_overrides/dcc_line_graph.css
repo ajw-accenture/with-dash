@@ -1,0 +1,30 @@
+.dcc-line-graph svg text {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.dcc-line-graph svg .g-ytitle text,
+.dcc-line-graph svg .g-xtitle text {
+    text-transform: lowercase;
+        font-variant: small-caps;
+}
+
+@media only screen and (max-width: 600px) { }
+@media only screen and (min-width: 600px) { }
+@media only screen and (min-width: 768px) { }
+@media only screen and (min-width: 992px) { }
+
+@media only screen and (min-width: 1600px) {
+    .dcc-line-graph svg .ytick text,
+    .dcc-line-graph svg .xtick text {
+        font-size: 105% !important;
+        font-style: italic;
+    }
+
+    .dcc-line-graph svg .g-ytitle text,
+    .dcc-line-graph svg .g-xtitle text {
+        font-size: 165% !important;
+        font-style: italic;
+        text-transform: lowercase;
+        font-variant: small-caps;
+    }
+}
