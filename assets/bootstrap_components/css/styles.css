@@ -1,0 +1,95 @@
+#bootstrap-components {
+    padding-top: 0.5%;
+    font-size: 75.945%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bootstrap-components > div {
+    width: 78%;
+    margin: 2.5% 0;
+}
+
+#bootstrap-components .table-container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--t-table-outer-border-color);
+}
+
+#bootstrap-components .table-container > table {
+    margin: 0;
+}
+
+table.bootstrap-component-table {
+    border: none;
+}
+
+table.bootstrap-component-table > thead > tr > th {
+    padding-top: 1.1%;
+}
+
+table.bootstrap-component-table th {
+    font-weight: bold;
+}
+
+table.bootstrap-component-table td {
+    border-color: var(--t-table-inner-border-color);
+}
+
+table.bootstrap-component-table th,
+table.bootstrap-component-table td {
+    padding: 0.18%;
+}
+
+table.bootstrap-component-table th:first-child,
+table.bootstrap-component-table td:first-child {
+    padding-left: 0.84%;
+}
+
+table.bootstrap-component-table th:last-child,
+table.bootstrap-component-table td:last-child {
+    padding-right: 0.84%;
+}
+
+table.bootstrap-component-table > tbody > tr:hover {
+    background-color: var(--t-table-row-hover);
+}
+
+table.bootstrap-component-table > tbody > tr > td:hover {
+    background-color: var(--t-table-cell-hover);
+}
+
+table.bootstrap-component-table col.col-group-1 {
+    width: 10%;
+}
+
+table.bootstrap-component-table tr > th:nth-child(n+4),
+table.bootstrap-component-table tr > td:nth-child(n+4) {
+    text-align: right;
+}
+
+table.bootstrap-component-table > tbody > tr:last-child td {
+    border-width: 0;
+}
+
+/* ******************** */
+/* Sortable */
+/* ******************** */
+
+table.sortable > thead > tr > th.with-sort-control {
+    cursor: pointer;
+}
+
+table.sortable > thead > tr:hover {
+    background-color: #f6f6f6;
+}
+
+table.sortable > thead > tr > th.with-sort-control:hover {
+    background-color: #e4e4e4;
+}
+
+table.sortable > thead > tr > th > div {
+    display: inline-block;
+    margin-right: 0.75%;
+}
