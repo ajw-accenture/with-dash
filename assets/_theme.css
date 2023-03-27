@@ -1,0 +1,22 @@
+:root {
+    --t-text-color: #2C3032;
+
+    --t-color-peach-bright: rgb(252, 232, 224);
+    --t-color-peach: rgba(247, 188, 165, 1);
+
+    --t-color-salmon: rgba(246, 131, 128, 1);
+
+    --t-color-red: rgba(191, 86, 117, 1);
+
+    --t-color-purple: rgba(107, 91, 123, 1);
+
+    --t-color-blue-faded: rgb(235, 245, 255);
+    --t-color-blue: rgba(52, 91, 124, 1);
+
+    --t-title-color: var(--t-color-peach-bright);
+
+    --t-table-row-hover: rgb(222, 228, 248);
+    --t-table-cell-hover: rgb(206, 212, 232);
+    --t-table-outer-border-color: rgba(211, 215, 217, 1);
+    --t-table-inner-border-color: rgba(139, 147, 154, 1);
+}
